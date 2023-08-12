@@ -1,6 +1,11 @@
-.page{
-    height: 150px;
-    width:350px;
-    text-align: center;
+.page {
+    height: 170px;
+    width: 350px;
     padding-top: 10px;
+    cursor: context-menu;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.page:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }

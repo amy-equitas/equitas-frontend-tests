@@ -1,5 +1,27 @@
-
-.launchTitle{
+.launchTitle {
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
+    width: 240px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.launchBox {
+    padding: 10px;
+}
+
+.launchId {
+    font-size: small;
+}
+
+.flightNumber {
+    border-radius: 15pt;
+    padding: 10px;
+    padding-bottom: 15px;
+    height: 15px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #244fcf;
+    color: white;
 }

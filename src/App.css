@@ -1,3 +1,105 @@
+.mainApp {
+  /* background-image: linear-gradient(to right bottom, #1d0537, #003e7c, #0078af, #00b3bf, #12ebb2); */
+  /* position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* 
+  &::before {
+    content: "";
+    background-image: url("/public/launcher.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+  } */
+}
+
 .App {
   text-align: center;
 }
+
+.pageNumberInput {
+  padding-bottom: 0px;
+  height: 20% !important;
+  width: 75px !important;
+  border: 1px solid black !important;
+  border-radius: 15pt !important;
+  margin: 0px 10px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.totalLaunchOuterBox {
+  margin: auto;
+  width: 100%;
+  max-width: 170px;
+  padding: 10px;
+}
+
+.totalLaunchBox {
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10pt;
+  background-image: linear-gradient(to bottom right, #0b7422, yellow);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  font-size: 1.3rem;
+  /* position: absolute; */
+  /* top: 3%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%);
+  padding: 10px; */
+}
+
+.totalLaunchNumberBox {
+  border: 1px solid black;
+  margin: 0px 10px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  background-color: darkseagreen;
+  text-align: center;
+}
+
+.mainLaunchBox {
+  /* position: relative; */
+  /* top: 50px; */
+}
+
+.launchIcon {
+  height: 35px;
+  width: 15%;
+  margin-bottom: -10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  bottom: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 600px) {}
